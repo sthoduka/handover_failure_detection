@@ -1,0 +1,22 @@
+#!/bin/sh
+python main.py \
+  --train_root=/path/to/training_set \
+  --train_labels=/path/to/training_labels \
+  --validation_root=/path/to/val_set \
+  --validation_labels=/path/to/val_labels \
+  --test_root=/path/to/test_set \
+  --test_labels=/path/to/test_labels \
+  --loss_function='Lcls_LHseg' \
+  --network_type='MSTCN-A' \
+  --input_type='video_FT_gripper' \
+  --robot_type_trainval="all" \
+  --task_type_trainval="all" \
+  --robot_type_test="all" \
+  --task_type_test="all" \
+  --num_stages=2 \
+  --batch_size=4 \
+  --log_every_n_steps=1 \
+  --default_root_dir=logs/ \
+  --learning_rate=0.0005 \
+  --max_epochs=40 \
+  --gpus=1 \
