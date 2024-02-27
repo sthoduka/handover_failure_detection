@@ -74,7 +74,7 @@ To train and evaluate each handover task separately, use:
 2. Robot to Human Handover only: `task_type_trainval="robot to human handover"` and `task_type_test="robot to human handover"`
 
 ## Extract features
-The dataset already contains the I3D features for both RGB and optical flow. In case you want to extract them again using the following commands. All use the I3D model pre-trained on the Kinetics dataset.
+The dataset already contains the I3D features for both RGB and optical flow. In case you want to extract them again, use the following commands. All use the I3D model pre-trained on the Kinetics dataset.
 
 
 Extract features for RGB frames:
