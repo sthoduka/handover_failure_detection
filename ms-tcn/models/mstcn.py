@@ -30,15 +30,6 @@ class MultimodalClassifier(nn.Module):
                                 nn.BatchNorm1d(16),
                                 nn.ReLU(),
                                 )
-        self.feat_model = nn.Sequential(
-                                nn.Conv1d(2048, 64, kernel_size=3, padding=8, dilation=8),
-                                nn.BatchNorm1d(64),
-                                nn.ReLU(),
-                                nn.Conv1d(64, 64, kernel_size=3, padding=16, dilation=16),
-                                nn.BatchNorm1d(64),
-                                nn.ReLU(),
-                                nn.AdaptiveAvgPool1d(1)
-                                )
         self.hparams = hparams
 
     def forward(self, batch):
