@@ -1,5 +1,6 @@
 This repository contains the code for the paper "A Multimodal Handover Failure Detection Dataset and Baselines" to appear at the [2024 IEEE International Conference on Robotics and Automation](https://2024.ieee-icra.org/). A link to the paper and dataset can be found [here](https://sthoduka.github.io/handover_failure_detection/).
 
+![graphical abstract](docs/graphical_abstract.png)
 
 ## Dependencies
 See [requirements.txt](requirements.txt)
