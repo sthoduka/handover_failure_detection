@@ -17,3 +17,14 @@ We use the implementation of the I3D model from [here](https://github.com/piergi
 2. Human Action Segmentation
 
 We use the implementation of the MS-TCN model from [here](https://github.com/yabufarha/ms-tcn). See [ms-tcn/README.md](ms-tcn/) for instructions on how to train and evaluate the different variants mentioned in the paper.
+
+## Citation
+Please cite the paper as follows:
+```
+@inproceedings{thoduka2024_icra,
+    author = {Thoduka, Santosh and Hochgeschwender, Nico and Gall, Juergen and Pl\"{o}ger, Paul G.},
+    title = {{A Multimodal Handover Failure Detection Dataset and Baselines}},
+    booktitle = {Proceedings of the IEEE International Conference on Robotics and Automation (ICRA)},
+    year = {2024}
+}
+```
