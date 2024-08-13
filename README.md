@@ -24,7 +24,9 @@ Please cite the paper as follows:
 @inproceedings{thoduka2024_icra,
     author = {Thoduka, Santosh and Hochgeschwender, Nico and Gall, Juergen and Pl\"{o}ger, Paul G.},
     title = {{A Multimodal Handover Failure Detection Dataset and Baselines}},
-    booktitle = {Proceedings of the IEEE International Conference on Robotics and Automation (ICRA)},
-    year = {2024}
+    booktitle={2024 IEEE International Conference on Robotics and Automation (ICRA)},
+    year = {2024},
+    pages={17013-17019},
+    doi={10.1109/ICRA57147.2024.10610143}
 }
 ```
